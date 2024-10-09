@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Marck Script';
+    src: url('MarckScript-Regular.woff2') format('woff2'),
+        url('MarckScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    text-align: center;
+    background: #f0f0f0;
+}
+h2 {
+    font-family: Helvetic, Arial, sans-serif;
+}
+.h1 {
+    font-family: 'Marck Script';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(18px + 0.390625vw);
+ 	display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%) translateX(-50%);
+}
+.i {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    font-size: calc(10px + 0.390625vw);
+    margin-bottom:1em;
+}
+.btn {
+	background: #003f64;
+	border: 1px solid #003f64;
+	box-shadow: 0 2px 8px 0 rgba(20,40,20,.2);
+	color: #fff;
+	height: 30px;
+	width: 80px;
+	-webkit-background-size: 67px 78px;
+	-moz-background-size: 67px 78px;
+	-o-background-size: 67px 78px;
+	background-size: 67px 78px;
+	cursor: pointer;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 0.45em;
+}
+#search_form_input_homepage {
+	float: none;
+	background: #fff;
+	color: #222;
+	height: 39px;
+	padding: 4px 42px 5px 6px;
+	margin: 0;
+	outline: none;
+	border-right: 0;
+	border: 1px solid #8d8d8d;
+	font-size: calc(12px + 0.390625vw);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-webkit-box-shadow: 1px 1px 2px #999;
+	-webkit-box-shadow: inset 1px 1px 2px #999;
+	-moz-box-shadow: inset 1px 1px 2px #999;
+	box-shadow: inset 1px 1px 2px #999;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.search-btn {
+    margin-top: 0.5em;
+}
